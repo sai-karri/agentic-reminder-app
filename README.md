@@ -220,18 +220,6 @@ ollama pull qwen3:4b
 | Language | Python 3.12 | - |
 | Package manager | uv | - |
 
-## Roadmap
-
-- [x] Agent core with tool-use loop
-- [x] Firestore persistent storage
-- [x] Telegram bot interface
-- [x] Dual LLM support (Gemini + Ollama)
-- [ ] Deploy to GCP Cloud Functions
-- [ ] Cloud Scheduler cron for due reminders
-- [ ] iOS Shortcut for Siri voice input
-- [ ] Webhook mode for production
-- [ ] Secret Manager integration
-- [ ] LangChain / CrewAI integration layer
 
 ## License
 
