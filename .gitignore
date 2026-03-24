@@ -201,7 +201,18 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Claude files
+.claude 
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# GCP credentials
+service-account-key.json
+*-credentials.json
+*-key.json
+
+# Gemini
+.gemini/

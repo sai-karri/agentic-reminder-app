@@ -1,0 +1,13 @@
+[project]
+name = "my-agentic-reminders"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-firestore>=2.26.0",
+    "google-genai>=1.68.0",
+    "ollama>=0.6.1",
+    "python-dotenv>=1.2.2",
+    "python-telegram-bot>=22.7",
+]
